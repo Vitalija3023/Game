@@ -45,6 +45,7 @@ overflow: hidden;
    padding: 35px 0;
    border-left: 30px solid #000;
    margin: 0 0 0 auto;
+   visibility:hidden;
   }
  /* Блок-2 */
 
@@ -59,6 +60,7 @@ overflow: hidden;
    height: 20px;
    background-color: #000;
    margin: 0 0 0 135px;
+   visibility:hidden;
 }
 
 .img-block-2{
@@ -78,6 +80,7 @@ overflow: hidden;
    padding: 35px 0;
    border-left: 30px solid #000;
    margin: 0 0 0 42px;
+   visibility:hidden;
   }
 
   /* блок-3 */
@@ -98,6 +101,7 @@ overflow: hidden;
    height: 20px;
    background-color: #000;
    margin: 0 0 0 220px;
+   visibility:hidden;
 }
 
 
@@ -113,6 +117,7 @@ overflow: hidden;
    padding: 35px 0;
    border-left: 30px solid #000;
    margin: 0 0 0 35px ;
+   visibility:hidden;
   }
 
   /* Блок-4 */
@@ -133,6 +138,7 @@ overflow: hidden;
    height: 20px;
    background-color: #000;
    margin: 0 0 0 160px;
+   visibility:hidden;
 }
 
 
@@ -149,6 +155,7 @@ overflow: hidden;
    padding: 35px 0;
    border-left: 30px solid #000;
    margin: 0 0 0 35px ;
+   visibility:hidden;
   }
 
   /* Блок-5 */
@@ -272,9 +279,7 @@ overflow: hidden;
      visibility: visible;
   }
 
-  .block-6:hover::after{
-     visibility: visible;
-  }
+ 
 
 /* 3 */
   .block-6:hover:after + .block-6::before{
@@ -302,9 +307,77 @@ overflow: hidden;
      visibility: visible;
   }
 
-  
-  
+  /* 6 */
 
+.block-5:hover::before + .block-4::after{
+   visibility: visible;
+}
+
+.block-4:hover::after{
+   visibility: visible;
+}
+
+/* 7 */
+.block-4:hover::after + .block-4::before{
+   visibility: visible;
+}
+.block-4:hover::before{
+   visibility: visible;
+}
+/* 8 */
+.block-4:hover::before + .block-3::after{
+   visibility: visible;
+
+}
+.block-3:hover::after{
+   visibility: visible;
+}
+/* 9 */
+.block-3:hover::after+.block-3::before{
+   visibility: visible;
+}
+.block-3:hover::before{
+   visibility: visible;
+}
+/* 10 */
+.block-3:hover::before + .block-2::after{
+   visibility: visible;
+
+}
+.block-2:hover::after{
+   visibility: visible;
+}
+/* 11 */
+.block-2:hover::after+.block-2::before{
+   visibility: visible;
+}
+.block-2:hover::before{
+   visibility: visible;
+}
+/* 12 */
+
+.block-2:hover::before + .block-1::after{
+   visibility: visible;
+
+}
+.block-1:hover::after{
+   visibility: visible;
+}
+
+/* 13 */
+.block-1:hover::after+.block-1::before{
+   visibility: visible;
+}
+.block-1:hover::before{
+   visibility: visible;
+}
+
+
+.game{
+   font-size: 30px;
+   font-weight: 900;
+   color: red;
+}
 
   
 
